@@ -45,16 +45,16 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">siqaauto</value>
-    <value name="createdDate">1696946355847</value>
-    <value name="lastModifiedDate">1696946355847</value>
-    <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
-    </record>
+    <value name="lastModifiedBy">stagetest</value>
+    <value name="lastModifiedDate">1725540942347</value>
     <value name="displayName">SIQAAdapterFlow</value>
     <value name="description"></value>
+    <array name="appList" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="providerName">WmJDBCAdapter</value>
+        <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
+      </record>
+    </array>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
@@ -62,11 +62,11 @@
         <value name="name">Database</value>
         <value name="providerName">WmJDBCAdapter</value>
         <record name="operation" javaclass="com.wm.util.Values">
-          <value name="operationName">DBInsert</value>
-          <null name="description"/>
+          <value name="operationName">DBTest</value>
           <value name="isCustom">true</value>
           <value name="operationType">actions</value>
-          <value name="projectName">edge.siqaadapscaffold1696917055812</value>
+          <value name="connectionType">sagcloud</value>
+          <value name="projectName">project.testadapscaff</value>
         </record>
         <value name="appType">predefined</value>
         <Boolean name="hasAccount">true</Boolean>
@@ -95,17 +95,20 @@
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">SIQAAdapScaffDB</value>
-          <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
+          <value name="connectionName">Database_PSUR05Sep</value>
+          <value name="connectionType">sagcloud</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:SIQAAdapScaffDB</value>
-        <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
+        <value name="connectionNSName">project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_PSUR05Sep</value>
+        <value name="connectionType">sagcloud</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <number name="ui_step_index" type="Long">1</number>
         <number name="nodeIndex" type="Long">0</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
+        <value name="nodePathForDebug">0</value>
+        <value name="nodePathNew">0</value>
+        <number name="lineNumberForDebug" type="Long">1</number>
       </record>
     </record>
   </record>
