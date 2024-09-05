@@ -7,3 +7,66 @@ packages:
   gitUrl: https://github.com/siqagituser
   gitUsername: siqagituser
   gitBranch: main
+- name: WmJDBCAdapter
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: softwareag
+services:
+- serviceName: project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_PSUR05Sep
+  packages:
+  - name: TestAdapScaffProject
+    version: "1.0"
+- serviceName: project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
+  packages:
+  - name: TestAdapScaffProject
+    version: "1.0"
+- serviceName: project.testadapscaff.integrations:SIQAAdapterFlow
+  packages:
+  - name: TestAdapScaffProject
+    version: "1.0"
+configurationVariables:
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionSettings.networkProtocol
+  : tcp
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionSettings.keyStore
+  : ""
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionSettings.databaseName
+  : SIQACloud
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionSettings.serverName
+  : vmiboint01
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionSettings.datasourceClass
+  : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionSettings.dbType
+  : MSSQL
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionSettings.password
+  : "{AES}B2Xqma4Ost5nVUiXctJydQ=="
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionEnabled
+  : "false"
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionSettings.transactionType
+  : NO_TRANSACTION
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionManagerSettings.startupRetryCount
+  : "0"
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionManagerSettings.poolIncrementSize
+  : "1"
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionManagerSettings.maximumPoolSize
+  : "10"
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionManagerSettings.expireTimeout
+  : "1000"
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionSettings.trustStore
+  : ""
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionManagerSettings.poolable
+  : "false"
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionSettings.driverType
+  : Progress® DataDirect®
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionSettings.user
+  : sa
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionSettings.otherProperties
+  : loginTimeout=60;driverType=thin;
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionManagerSettings.startupBackoffSecs
+  : "10"
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionSettings.portNumber
+  : "1433"
+  ? artConnection.TestAdapScaffProject.project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_PSUR05Sep.connectionManagerSettings.minimumPoolSize
+  : "1"
