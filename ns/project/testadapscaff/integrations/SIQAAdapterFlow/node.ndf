@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">stagetest</value>
-    <value name="lastModifiedDate">1725540942347</value>
+    <value name="lastModifiedDate">1725541035773</value>
     <value name="displayName">SIQAAdapterFlow</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -96,11 +96,11 @@
         </array>
         <record name="connection" javaclass="com.wm.util.Values">
           <value name="connectionName">Database_PSUR05Sep</value>
-          <value name="connectionType">sagcloud</value>
+          <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
           <null name="description"/>
         </record>
         <value name="connectionNSName">project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_PSUR05Sep</value>
-        <value name="connectionType">sagcloud</value>
+        <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <number name="ui_step_index" type="Long">1</number>
         <number name="nodeIndex" type="Long">0</number>
