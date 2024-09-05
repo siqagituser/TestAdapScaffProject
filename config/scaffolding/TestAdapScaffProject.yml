@@ -11,15 +11,11 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: softwareag
 services:
-- serviceName: project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_PSUR05Sep
-  packages:
-  - name: TestAdapScaffProject
-    version: "1.0"
-- serviceName: project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
-  packages:
-  - name: TestAdapScaffProject
-    version: "1.0"
 - serviceName: project.testadapscaff.integrations:SIQAAdapterFlow
+  packages:
+  - name: TestAdapScaffProject
+    version: "1.0"
+- serviceName: project.testadapscaff.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBTest
   packages:
   - name: TestAdapScaffProject
     version: "1.0"
